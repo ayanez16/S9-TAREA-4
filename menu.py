@@ -57,7 +57,7 @@ while opc !="4":
             elif opc1 == "5":
                 print("Insertar Elemento")
                 pos = int(input(("Ingrese la posicion en la que desea insertar el valor: ")))
-                valor = int(input("Ingrese el dato a insertar en la Lista: "))
+                valor = input("Ingrese el dato a insertar en la Lista: ")
                 lista1.insertarElemento(pos,valor)
                 print(lista1.lista)
                 input("Presione una tecla para continuar...")
